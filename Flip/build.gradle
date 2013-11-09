@@ -12,6 +12,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    compile 'com.google.apis:google-api-services-drive:v2-rev105-1.17.0-rc'
+}
+
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.0"
@@ -24,3 +28,4 @@ android {
 
 dependencies {
 }
+

@@ -9,7 +9,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.Map;
+import java.text.SimpleDateFormat;
+
+import org.apache.pdfbox.util.PDFTextStripper;
+import org.apache.pdfbox.pdmodel.*;
+
+import java.io.File;
+
 import android.os.Build;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class MainActivity extends Activity {
 
@@ -28,7 +39,7 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        
+        //SEE WHAT HAPPENS WHEN WE WRITE STUFF IN THE SAME PLACE.
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
@@ -62,4 +73,40 @@ public class MainActivity extends Activity {
         }
     }
 
+    public void importCards(View view)
+    {
+        File pdf = new File();
+    }
+
+    private String processPDF(File file, String outputDateMask, Map<String, String> metadata) throws Throwable {
+        PDFTextStripper pdfS = new PDFTextStripper();
+        PDDocument pdoc = new PDDocument();
+        pdoc = PDDocument.load(file);
+        PDDocumentInformation info = pdoc.getDocumentInformation();
+        if (info.getTitle() != null) {
+            metadata.put("title",info.getTitle());
+        }
+        if (info.getAuthor() != null) {
+            metadata.put("author",info.getAuthor());
+        }
+        if (info.getSubject() != null) {
+            metadata.put("subject",info.getSubject());
+        }
+        if (info.getKeywords() != null) {
+            metadata.put("keywords",info.getKeywords());
+        }
+        if (info.getCreator() != null) {
+            metadata.put("creator",info.getCreator());
+        }
+        if (info.getProducer() != null) {
+            metadata.put("producer",info.getProducer());
+        }
+        SimpleDateFormat sdf = new SimpleDateFormat(outputDateMask);
+        if (info.getModificationDate() != null) {
+            metadata.put("published",sdf.format(info.getModificationDate().getTime()));
+        } else if (info.getCreationDate() != null) {
+            metadata.put("published",sdf.format(info.getCreationDate().getTime()));
+        }
+        return pdfS.getText(pdoc);
+    }
 }

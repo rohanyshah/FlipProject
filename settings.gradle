@@ -1,1 +1,1 @@
-include ':Flip'
+include ':Flip', ':Drive', ':pdfbox'
