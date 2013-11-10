@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Flip/Flip.iml" filepath="$PROJECT_DIR$/Flip/Flip.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlipProject.iml" filepath="$PROJECT_DIR$/FlipProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/aFileChooser/aFileChooser.iml" filepath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libs/aFileChooser/aFileChooser1.iml" filepath="$PROJECT_DIR$/libs/aFileChooser/aFileChooser1.iml" />
       <module fileurl="file://$PROJECT_DIR$/pdfbox/pdfbox.iml" filepath="$PROJECT_DIR$/pdfbox/pdfbox.iml" />
     </modules>
   </component>

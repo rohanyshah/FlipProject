@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$MODULE_DIR$/../../aFileChooser1" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../aFileChooser1">
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/r/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/res/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/aidl" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/assets" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/java" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/jni" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/rs" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/res" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/debug/resources" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/aidl" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/assets" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/java" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/jni" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/rs" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/res" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/main/resources" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../aFileChooser1/src/instrumentTest/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/../../aFileChooser1/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
